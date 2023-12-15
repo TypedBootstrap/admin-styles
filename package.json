@@ -1,0 +1,21 @@
+{
+    "name": "@typedbootstrap/admin-styles",
+    "description": "A collection of styles for admin interfaces",
+    "version": "0.1.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "build": "rimraf dist/ && sass ./src/scss/styles.scss ./dist/css/styles.css --no-source-map && sass ./src/scss/styles.scss ./dist/css/styles.min.css --no-source-map --style compressed",
+        "prepublishOnly": "npm run build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "bootstrap": "5.2.3",
+        "rimraf": "^5.0.5",
+        "sass": "^1.69.5"
+    },
+    "files": [
+        "dist",
+        "src"
+    ]
+}
