@@ -1,7 +1,7 @@
 .topnav {
     height: $topnav-base-height;
     padding-left: 0;
-    z-index: $zindex-topnav;
+    z-index: $topnav-zindex;
 
     .navbar-brand {
         margin: 0;

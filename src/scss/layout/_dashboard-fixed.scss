@@ -1,7 +1,7 @@
 .nav-fixed {
     .topnav {
         @extend .fixed-top;
-        z-index: $zindex-topnav;
+        z-index: $topnav-zindex;
     }
 
     #layout-sidenav {
@@ -9,7 +9,7 @@
             @extend .fixed-top;
             height: 100vh;
             width: $sidenav-base-width;
-            z-index: $zindex-sidenav;
+            z-index: $sidenav-zindex;
 
             .sidenav {
                 padding-top: $topnav-base-height;

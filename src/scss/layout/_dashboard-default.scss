@@ -6,7 +6,7 @@
         flex-shrink: 0;
         transform: translateX(-$sidenav-base-width);
         transition: transform .15s ease-in-out;
-        z-index: $zindex-sidenav;
+        z-index: $sidenav-zindex;
     }
 
     #layout-sidenav-content {
@@ -39,7 +39,7 @@
                 top: 0;
                 transition: opacity .3s ease-in-out;
                 width: 100%;
-                z-index: $zindex-content;
+                z-index: $content-zindex;
             }
         }
     }
