@@ -21,7 +21,7 @@
     }
 }
 
-.sb-sidenav-toggled {
+.sidenav-toggled {
     #layout-sidenav {
         #layout-sidenav-nav {
             transform: translateX(0);
@@ -57,7 +57,7 @@
         }
     }
 
-    .sb-sidenav-toggled {
+    .sidenav-toggled {
         #layout-sidenav {
             #layout-sidenav-nav {
                 transform: translateX(-$sidenav-base-width);
