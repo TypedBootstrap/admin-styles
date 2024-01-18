@@ -1,5 +1,5 @@
 .nav-fixed {
-    .sb-topnav {
+    .topnav {
         @extend .fixed-top;
         z-index: $zindex-topnav;
     }

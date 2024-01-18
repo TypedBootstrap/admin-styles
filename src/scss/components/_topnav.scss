@@ -1,17 +1,13 @@
-// 
-// Topnav
-// 
-
-.sb-topnav {
-    padding-left: 0;
+.topnav {
     height: $topnav-base-height;
+    padding-left: 0;
     z-index: $zindex-topnav;
 
     .navbar-brand {
-        width: $sidenav-base-width;
+        margin: 0;
         padding-left: $navbar-padding-x;
         padding-right: $navbar-padding-x;
-        margin: 0;
+        width: $sidenav-base-width;
     }
 
     &.navbar-dark {
