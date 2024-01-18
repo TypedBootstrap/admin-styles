@@ -1,62 +1,56 @@
-// 
-// Sidenav
-// 
-
-// Base styling for the sidenav
-
-.sb-sidenav {
+.sidenav {
     display: flex;
     flex-direction: column;
-    height: 100%;
     flex-wrap: nowrap;
+    height: 100%;
 
-    .sb-sidenav-menu {
+    .sidenav-menu {
         flex-grow: 1;
 
         .nav {
             flex-direction: column;
             flex-wrap: nowrap;
 
-            .sb-sidenav-menu-heading {
-                padding: 1.75rem 1rem 0.75rem;
-                font-size: 0.75rem;
+            .sidenav-menu-heading {
+                font-size: .75rem;
                 font-weight: bold;
+                padding: 1.75rem 1rem .75rem;
                 text-transform: uppercase;
             }
 
             .nav-link {
-                display: flex;
                 align-items: center;
-                padding-top: 0.75rem;
-                padding-bottom: 0.75rem;
+                display: flex;
+                padding-bottom: .75rem;
+                padding-top: .75rem;
                 position: relative;
 
-                .sb-nav-link-icon {
-                    font-size: 0.9rem;
+                .nav-link-icon {
+                    font-size: .9rem;
                 }
 
-                .sb-sidenav-collapse-arrow {
+                .sidenav-collapse-arrow {
                     display: inline-block;
                     margin-left: auto;
-                    transition: transform 0.15s ease;
+                    transition: transform .15s ease;
                 }
 
                 &.collapsed {
-                    .sb-sidenav-collapse-arrow {
+                    .sidenav-collapse-arrow {
                         transform: rotate(-90deg);
                     }
                 }
             }
 
-            .sb-sidenav-menu-nested {
-                margin-left: 1.5rem;
+            .sidenav-menu-nested {
                 flex-direction: column;
+                margin-left: 1.5rem;
             }
         }
     }
 
-    .sb-sidenav-footer {
-        padding: 0.75rem;
+    .sidenav-footer {
         flex-shrink: 0;
+        padding: .75rem;
     }
 }

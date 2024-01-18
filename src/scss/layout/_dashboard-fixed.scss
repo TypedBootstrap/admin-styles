@@ -1,4 +1,4 @@
-.sb-nav-fixed {
+.nav-fixed {
     .sb-topnav {
         @extend .fixed-top;
         z-index: $zindex-topnav;
@@ -11,10 +11,10 @@
             width: $sidenav-base-width;
             z-index: $zindex-sidenav;
 
-            .sb-sidenav {
+            .sidenav {
                 padding-top: $topnav-base-height;
 
-                .sb-sidenav-menu {
+                .sidenav-menu {
                     overflow-y: auto;
                 }
             }

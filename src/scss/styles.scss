@@ -11,6 +11,12 @@
 // Import Custom SCSS
 @import "global.scss";
 
+// Components
+@import "components/nav";
+@import "components/sidenav";
+@import "components/sidenav-dark";
+@import "components/sidenav-light";
+
 // Layout
 @import "layout/authentication.scss";
 @import "layout/dashboard-default.scss";
@@ -18,8 +24,4 @@
 @import "layout/error.scss";
 
 // Navigation
-@import "navigation/nav.scss";
 @import "navigation/topnav.scss";
-@import "navigation/sidenav/sidenav.scss";
-@import "navigation/sidenav/sidenav-dark.scss";
-@import "navigation/sidenav/sidenav-light.scss";
