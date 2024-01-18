@@ -1,18 +1,14 @@
-// 
-// Fixed dashboard layout
-// 
-
 .sb-nav-fixed {
     .sb-topnav {
         @extend .fixed-top;
         z-index: $zindex-topnav;
     }
 
-    #layoutSidenav {
-        #layoutSidenav_nav {
+    #layout-sidenav {
+        #layout-sidenav-nav {
             @extend .fixed-top;
-            width: $sidenav-base-width;
             height: 100vh;
+            width: $sidenav-base-width;
             z-index: $zindex-sidenav;
 
             .sb-sidenav {
@@ -24,7 +20,7 @@
             }
         }
 
-        #layoutSidenav_content {
+        #layout-sidenav-content {
             padding-left: $sidenav-base-width;
             top: $topnav-base-height;
         }
