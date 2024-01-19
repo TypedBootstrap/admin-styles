@@ -1,8 +1,7 @@
 {
     "name": "@typedbootstrap/admin-styles",
-    "description": "A collection of styles for admin interfaces",
-    "version": "0.1.0",
-    "main": "index.js",
+    "description": "A collection of styles for admin interfaces based off SB Admin, an open source admin dashboard template for Bootstrap created by Start Bootstrap",
+    "version": "1.0.0",
     "license": "MIT",
     "scripts": {
         "build": "rimraf dist/ && sass ./src/scss/styles.scss ./dist/css/styles.css --no-source-map && sass ./src/scss/styles.scss ./dist/css/styles.min.css --no-source-map --style compressed",

@@ -1,27 +1,23 @@
-// 
-// Topnav
-// 
-
-.sb-topnav {
-    padding-left: 0;
+.topnav {
     height: $topnav-base-height;
-    z-index: $zindex-topnav;
+    padding-left: 0;
+    z-index: $topnav-zindex;
 
     .navbar-brand {
-        width: $sidenav-base-width;
+        margin: 0;
         padding-left: $navbar-padding-x;
         padding-right: $navbar-padding-x;
-        margin: 0;
+        width: $sidenav-base-width;
     }
 
     &.navbar-dark {
-        #sidebarToggle {
+        #sidenav-toggle {
             color: $topnav-dark-toggler-color;
         }
     }
 
     &.navbar-light {
-        #sidebarToggle {
+        #sidenav-toggle {
             color: $topnav-light-toggler-color;
         }
     }
